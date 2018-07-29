@@ -50,8 +50,8 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`c_id`, `vehicle_id`, `cf_name`, `cl_name`, `c_email`, `c_mobile`, `nid`, `w_start`, `w_end`, `payment_type`, `invoice_id`, `c_address`, `c_pass`, `extra`) VALUES
-(3, 7, 'Dip', 'gasd', 'asdas@asdfasdf.co', '5556416556', NULL, '2016-12-29', '2017-01-25', 'Cash', NULL, NULL, '1234', NULL),
-(13, 12, 'Pias', 'fsd', 'asdasd@asdas.com', '23', NULL, '2016-12-29', '0022-02-02', 'Cash', NULL, NULL, '1234', NULL),
+(3, 7, 'Shuvo', 'Hosen', 'asdas@asdfasdf.co', '5556416556', NULL, '2016-12-29', '2017-01-25', 'Cash', NULL, NULL, '1234', NULL),
+(13, 12, 'Skaib', 'Hasan', 'asdasd@asdas.com', '23', NULL, '2016-12-29', '0022-02-02', 'Cash', NULL, NULL, '1234', NULL),
 (14, 8, 'Mukit', 'Chowdhury', 'dranger2011@gmail.com', '3133388055', NULL, '2016-12-29', '2016-11-30', 'Cash', NULL, NULL, '1234', NULL);
 
 -- --------------------------------------------------------
@@ -164,11 +164,11 @@ CREATE TABLE `vehicles` (
 --
 
 INSERT INTO `vehicles` (`vehicle_id`, `manufacturer_id`, `model_id`, `category`, `buying_price`, `selling_price`, `mileage`, `color`, `add_date`, `sold_date`, `status`, `registration_year`, `insurance_id`, `user_id`, `gear`, `doors`, `seats`, `tank`, `image`, `engine_no`, `chesis_no`, `featured`) VALUES
-(2, 16, 9, 'Subcompact', 12000100, NULL, 55, 'red', '2016-12-27 12:00:00', NULL, 'available', 2010, 2147483647, 1, 'auto', 6, 4, 25, '77303.jpg', 2147483647, 21231231, 1),
-(5, 18, 9, 'Subcompact', 10000200, NULL, 25, 'black', '2016-12-27 12:00:00', NULL, 'available', 2010, 4545656, 1, 'auto', 4, 4, 25, 'bughatti.jpg', 2147483647, 21231231, 1),
-(7, 19, 10, 'Subcompact', 11000100, 12000100, 25, 'black', '2016-12-27 12:00:00', '2016-12-29 00:00:00', 'sold', 2010, 4545656, 1, 'auto', 4, 4, 25, 'bughatti.jpg', 2147483647, 21231231, NULL),
-(8, 20, 9, 'Compact', 10000100, 1000, 556, 'Yellow', '2016-12-28 12:00:00', '2016-12-29 00:00:00', 'sold', 2012, 2147483647, 1, 'auto', 4, 4, 25, 'yellow-lamborghini-gallardo-Wallpaper.jpg', 2147483647, 2147483647, NULL),
-(12, 16, 9, 'Subcompact', 2000000, 20000000, 3, 'Black', '2016-12-28 12:00:00', '2016-12-29 00:00:00', 'sold', 2001, 121212, 1, 'auto', 2, 3, 34, '7538.jpg', 23232, 232323, 1);
+(2, 16, 9, 'Subcompact', 12000100, NULL, 55, 'red', '2018-02-27 12:00:00', NULL, 'available', 2010, 2147483647, 1, 'auto', 6, 4, 25, '77303.jpg', 2147483647, 21231231, 1),
+(5, 18, 9, 'Subcompact', 10000200, NULL, 25, 'black', '2018-06-27 12:00:00', NULL, 'available', 2010, 4545656, 1, 'auto', 4, 4, 25, 'bughatti.jpg', 2147483647, 21231231, 1),
+(7, 19, 10, 'Subcompact', 11000100, 12000100, 25, 'black', '2018-07-27 12:00:00', '2016-12-29 00:00:00', 'sold', 2010, 4545656, 1, 'auto', 4, 4, 25, 'bughatti.jpg', 2147483647, 21231231, NULL),
+(8, 20, 9, 'Compact', 10000100, 1000, 556, 'Yellow', '2018-08-28 12:00:00', '2016-12-29 00:00:00', 'sold', 2012, 2147483647, 1, 'auto', 4, 4, 25, 'yellow-lamborghini-gallardo-Wallpaper.jpg', 2147483647, 2147483647, NULL),
+(12, 16, 9, 'Subcompact', 2000000, 20000000, 3, 'Black', '2018-05-28 12:00:00', '2018-12-29 00:00:00', 'sold', 2001, 121212, 1, 'auto', 2, 3, 34, '7538.jpg', 23232, 232323, 1);
 
 --
 -- Indexes for dumped tables
